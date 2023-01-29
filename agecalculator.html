@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	
+	<body>
+	<div class="container">
+		<div class="center">
+			<div class="head">
+				<h1> Age Calculator</h1><hr>
+			</div>
+			<div class="heading">
+				<h3>Date</h3>
+				<h3>Month</h3>
+				<h3>Year</h3>
+			</div>
+			<div class="inputbox">
+				<div class="input">
+					<input type="text" placeholder="dd" id="date" value="" required>
+				</div>
+				<div class="input">
+					<input type="text" placeholder="mm" id="month" value="" required>
+				</div>
+				<div class="input">
+					<input type="text" placeholder="yyyy"id="year" value="" required>
+				</div>
+			</div>
+			<div class="button">
+			<button id="btn" >Submit</button>
+			</div>
+		</div>
+	</div>	
+	<script>
+		let but=document.getElementById("btn");
+		btn.addEventListener("click",calculate);
+		
+		function calculate(){
+			let date=document.getElementById("date").value;
+			let month=document.getElementById("month").value;
+			let year=document.getElementById("year").value;
+		}
+	</script>
+	</body>
+</html>	
